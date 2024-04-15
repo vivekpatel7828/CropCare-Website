@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>CropCare web application</title>
+  <meta name="title" content="CropCare web application">
+  <meta name="description" content="This is a CropCare web">
+
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Grilli</p>
+  </div>
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="logo_main.jpg" width="130" height="40" alt="Grilli - Home" style="border-radius: 6px">
+
+        
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="logo_main.jpg" width="130" height="40" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Product</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Popular" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Popular</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Contact_US" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            CropCare, Khandwa City, <br>
+            MP, India
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.00 am - 08.30 pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">CropCare11@Gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Product Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +91-78280-15563
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#LogIN_Form" class="btn btn-secondary">
+        <span class="text text-1">Login</span>
+
+        <span class="text text-2" aria-hidden="true">Login</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <!-- <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover"> -->
+              <img src="backg.jpg" width="1880" height="950" alt="" class="img-cover">
+
+            </div>
+
+            <!-- <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p> -->
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Healthy soil, thriving crops, sustainable future.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              From seed to harvest, we care.
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Product</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Product</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <!-- <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover"> -->
+              <img src="new_back2.jpg" width="1880" height="950" alt="" class="img-cover">
+
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Nurturing today for <br>
+              a bountiful tomorrow.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Cultivating nature's potential
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Product</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Product</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <!-- <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover"> -->
+              <img src="new_back3.jpg" width="1880" height="950" alt="" class="img-cover">
+
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Bridging science and nature <br>
+              for sustainable agriculture.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Harvesting hope, one seed at a time.
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Product</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Product</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <!-- <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a> -->
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <!-- <p class="section-subtitle label-2">Flavors For Royalty</p> -->
+
+          <h2 class="headline-1 section-title">Some Top Fertilizers</h2>
+
+          <p class="section-text">
+            Fertilizers play a vital role in enhancing soil fertility and promoting healthy plant growth.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="f1.jpg" width="285" height="336" loading="lazy" alt="Breakfast" class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Urea</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Product</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="f2.jpg" width="285" height="336" loading="lazy" alt="Appetizers" class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Biofertilizers</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Product</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="f3.jpg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">DAP (Diammonium phosphate)</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Product</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title">Sustainable Agricultural Practices</h2>
+
+            <p class="section-text">
+              The CropCare website is a comprehensive platform dedicated to fostering sustainable agriculture. We
+              provide valuable resources and expert advice on crop protection, soil management, and cutting-edge farming
+              techniques, empowering farmers to optimize yields while promoting environmental stewardship and long-term
+              viability.
+            </p>
+
+            <div class="contact-label">Order Through Call</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+91-78280-15563</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="f4.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100"
+              data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="f5.jpg" width="285" height="285" loading="lazy" alt="" class="w-100">
+            </div>
+
+
+
+          </figure>
+
+          <!-- <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape"> -->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <!-- <img src="pexels-markus-spiske-121629.jpg" width="940" height="900" loading="lazy" alt="special dish" -->
+          <img src="photo-1581578017306-7334b15283df.avif" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <!-- <img src="m2.jpg" width="28" height="41" loading="lazy" alt="badge" class="abs-img"> -->
+
+            <p class="section-subtitle label-2">Special Things</p>
+
+            <h2 class="headline-1 section-title">Green Plants</h2>
+
+            <p class="section-text">
+              Green plants thrive when nourished with fertilizers, absorbing essential nutrients like nitrogen,
+              phosphorus, and potassium for robust growth. Proper fertilizer application enhances plant vigor, boosts
+              yield, and contributes to a healthier, greener environment.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">$40.00</del>
+
+              <span class="span body-1">$20.00</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Product</span>
+
+              <span class="text text-2" aria-hidden="true">View All Product</span>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Product</p>
+
+          <h2 class="headline-1 section-title text-center">Product</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="m4.jpg" style="width: 100px; height: 100px;" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Shimo</a>
+                    </h3>
+
+                    <!-- <span class="badge label-1">Seasonal</span> -->
+
+                    <span class="span title-2">MRP 1700.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    SHIMO is a novel technology Broad insecticide in the form of a suspension concentrate.
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="m3.jpeg" style="width: 100px; height: 100px;" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">CHLOR 20</a>
+                    </h3>
+
+                    <span class="span title-2">MRP 360.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    It can be used on cotton, paddy, beans, vegetables, etc.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="m6.jpeg" style="width: 100px; height: 100px;" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">ICHIGO</a>
+                    </h3>
+
+                    <span class="span title-2">MRP 645.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    It is very useful against termites infestation in crops as well as buildings, woodwork, and
+                    furniture, etc.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="Addcart2.jpeg" style="width: 100px; height: 100px;" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Garud</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">MRP 370.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Garud is a non-selective systemic herbicide that contains glyphosate as its active ingredient. It is
+                    used to control weeds in agricultural crops
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="Addcart4.jpeg" style="width: 100px; height: 100px;" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Profex Super</a>
+                    </h3>
+
+                    <span class="span title-2">MRP 599.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    It's used to control bollworm complex and effective against chewing and sucking insect pests,
+                    such as caterpillars, whiteflies, leaf miners, and thrips.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="Addcart1.jpeg" style="width: 100px; height: 100px;" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Floramite</a>
+                    </h3>
+
+                    <span class="span title-2"> MRP 409.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Highly effective against all stages of most of the mites including eggs;
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- <p class="menu-text text-center">
+            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p> -->
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Product</span>
+
+            <span class="text text-2" aria-hidden="true">View All Product</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <!-- <section class="section testi text-center has-bg-image" style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials"> -->
+      <section class="section testi text-center has-bg-image" aria-label="testimonials">
+
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            "Your fertilizer has transformed my crops! They're healthier, more robust, and yielding better than ever.
+            Thank you for helping me achieve such impressive results in my fields!"
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="vikku.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
+
+            <p class="label-2 profile-name">Akash Patel</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="Contact_US">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Order</h2>
+
+              <p class="form-text text-center">
+                Order request <a href="tel:+88123123456" class="link">91-7451917413</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <!-- <ion-icon name="person-outline" aria-hidden="true"></ion-icon> -->
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 pack</option>
+                    <option value="2-person">2 Pack</option>
+                    <option value="3-person">3 pack</option>
+                    <option value="4-person">4 pack</option>
+                    <option value="5-person">5 pack</option>
+                    <option value="6-person">6 pack</option>
+                    <option value="7-person">7 pack</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <input type="text" name="name" placeholder="Product Name" autocomplete="off" class="input-field">
+
+              </div>
+
+              <textarea name="message" placeholder="Location/Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Order Product</span>
+
+                <span class="text text-2" aria-hidden="true">Order Product</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Order Request</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+91-7828015563</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                CropCare, Khandwa City, <br>
+                Madhya Pradesh, India
+              </address>
+
+              <p class="contact-label">Shop Open Day/Time</p>
+
+              <p class="body-4">
+                Monday to Saturday <br>
+                11.00 am - 8:30 pm
+              </p>
+
+              <p class="contact-label">Shop close Day</p>
+
+              <p class="body-4">
+                Sunday <br>
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event" id="Popular">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Popular Products</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="mainIMG1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-02-15">15/02/2024</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="card-title title-2 text-center">
+                    Non-repellent insecticide which does not allow the termites to detect the gaps in the barrier formed
+                    due to improper application
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="mainIMG2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2023</time>
+                </div>
+
+                <div class="card-content">
+
+
+                  <h3 class="card-title title-2 text-center">
+                    Water Mixable : Mix 1 Litre with 50 Litre water for treatment of soil in Pre construction and
+                    Residential buildings.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="mainIMG3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">16/04/2023</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="card-title title-2 text-center">
+                    Being a quality-centric organization of this industry, we are engaged in providing a wide array of
+                    Agriculture Soybean Pesticide.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Product</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Product</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer section has-bg-image text-center" id="LogIN_Form">
+
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+
+          <address class="body-4">
+            CropCare, Khandwa City, Madhya Pradesh, India
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">CropCare11@Gmail.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Order Request : +91-123-123456</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 05:30 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+           
+          </form>
+
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              
+
+              <input type="password" name="email_address" placeholder="Your Password" autocomplete="off"
+                class="input-field">
+            </div>
+
+           
+          </form>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+             
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Login</span>
+
+              <span class="text text-2" aria-hidden="true">Login</span>
+            </button>
+          </form>
+
+          
+  
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#home" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Product</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#Popular" class="label-2 footer-link hover-underline">Popular</a>
+          </li>
+
+          <li>
+            <a href="#Contact_US" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
